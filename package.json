@@ -1,7 +1,7 @@
 {
   "name": "requestly",
   "productName": "Requestly",
-  "version": "1.4.22",
+  "version": "1.4.23",
   "private": true,
   "description": "Intercept & Modify HTTP Requests",
   "scripts": {
@@ -112,12 +112,13 @@
       "provider": "github",
       "releaseType": "release",
       "owner": "requestly",
-      "repo": "requestly-desktop-app"
+      "private": true,
+      "repo": "requestly-desktop-dev"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/requestly/requestly-desktop-app.git"
+    "url": "git+https://github.com/requestly/requestly-desktop-dev.git"
   },
   "author": {
     "name": "RQ Labs, Inc.",
