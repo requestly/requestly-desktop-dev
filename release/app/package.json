@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "electron":"23.0.0",
+    "node-abi": "^3.0.0",
     "npm-force-resolutions": "0.0.10",
     "patch-package": "^6.4.7"
   },
