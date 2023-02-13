@@ -42,6 +42,7 @@ jobs:
         run: bash ./install.sh
 
       - name: Build/release Electron app
+        if: ${{ success() }} || ${{ failure() }}
         uses: samuelmeuli/action-electron-builder@v1.6.0
         with:
           # GitHub token, automatically provided to the action
