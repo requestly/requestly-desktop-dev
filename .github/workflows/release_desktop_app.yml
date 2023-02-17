@@ -8,10 +8,10 @@ on:
         required: true
         type: choice
         options:
-          - ubuntu-latest
+          - ubuntu-20.04
           - windows-2019
           - macos-11
-        default: ubuntu-latest
+        default: ubuntu-20.04
 
 jobs:
   release:
