@@ -94,7 +94,8 @@
     "win": {
       "target": [
         "nsis"
-      ]
+      ],
+      "icon" : "assets/icon.ico"
     },
     "linux": {
       "target": [
