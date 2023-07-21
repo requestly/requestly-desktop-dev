@@ -1,7 +1,7 @@
 {
   "name": "requestly",
   "productName": "Requestly",
-  "version": "1.6.9",
+  "version": "1.6.10",
   "private": true,
   "description": "Intercept & Modify HTTP Requests",
   "scripts": {
@@ -93,7 +93,8 @@
     },
     "win": {
       "target": [
-        "nsis"
+        "nsis",
+        "msi"
       ],
       "icon" : "assets/icon.ico"
     },
