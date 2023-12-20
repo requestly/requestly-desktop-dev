@@ -1,7 +1,7 @@
 {
   "name": "requestly",
   "productName": "Requestly",
-  "version": "1.7.3",
+  "version": "1.7.6",
   "private": true,
   "description": "Intercept & Modify HTTP Requests",
   "scripts": {
@@ -96,7 +96,9 @@
       ]
     },
     "win": {
-      "certificateSubjectName" : "RQ Labs, Inc."
+      "certificateSubjectName" : "RQ Labs, Inc.",
+      "publisherName": ["RQ Labs, Inc."],
+      "target": ["nsis"]
     },
     "linux": {
       "target": [
