@@ -1,7 +1,7 @@
 {
   "name": "requestly",
   "productName": "Requestly",
-  "version": "1.5.14",
+  "version": "1.7.3",
   "private": true,
   "description": "Intercept & Modify HTTP Requests",
   "scripts": {
@@ -96,11 +96,7 @@
       ]
     },
     "win": {
-      "target": [
-        "nsis",
-        "msi"
-      ],
-      "icon" : "assets/icon.ico"
+      "certificateSubjectName" : "RQ Labs, Inc."
     },
     "linux": {
       "target": [
