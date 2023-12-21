@@ -1,7 +1,7 @@
 {
   "name": "requestly",
   "productName": "Requestly",
-  "version": "1.7.8",
+  "version": "1.7.9",
   "private": true,
   "description": "Intercept & Modify HTTP Requests",
   "scripts": {
@@ -97,8 +97,6 @@
     },
     "win": {
       "certificateSubjectName" : "RQ Labs, Inc.",
-      "publisherName": ["RQ Labs, Inc."],
-      "rfc3161TimeStampServer":"http://sha256timestamp.ws.symantec.com/sha256/timestamp",
       "target": ["nsis"]
     },
     "linux": {
